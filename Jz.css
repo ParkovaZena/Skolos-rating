@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+--Orange: hsl(25, 97%, 53%);
+}
+
+*{
+    font-family: "Overpass", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--VeryDarkBlue);
+}
+
+.wrapper{
+    background-color: var(--DarkBlue);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+
+img{
+    width: 20px;
+    padding: 10px;
+    background-color: var(--DarkBlue);
+    border-radius: 50%;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: var(--MediumGrey);
+    font-size: 15px;
+}
+ 
+
+
+label{
+    position: relative;
+    right: -35px;
+    top: -15px;
+    color: var(--MediumGrey);
+}
+
+
+button{
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+
+button:hover{
+    background-color: white;
+    color: var(--Orange);
+
+}
+
+input[type=radio]{
+    width: 40px;
+    height: 40px;
+    
+}
+
+input[type=radio]:hover{
+
+}
+
+input[type=radio]:checked{
+    accent-color: var(--Orange);
+}
