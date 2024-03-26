@@ -75,11 +75,12 @@ button:hover{
 input[type=radio]{
     width: 40px;
     height: 40px;
+    border: none;
     
 }
 
 input[type=radio]:hover{
-
+    accent-color: var(--Orange);
 }
 
 input[type=radio]:checked{
