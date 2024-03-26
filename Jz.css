@@ -73,9 +73,11 @@ button:hover{
 }
 
 input[type=radio]{
+    appearance: none;
     width: 40px;
     height: 40px;
-    border: none;
+    background-color: var(--LightGrey);
+    border-radius: 50%;
     
 }
 
