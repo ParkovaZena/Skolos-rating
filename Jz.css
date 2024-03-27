@@ -76,15 +76,15 @@ input[type=radio]{
     appearance: none;
     width: 40px;
     height: 40px;
-    background-color: var(--LightGrey);
+    background-color: var(--VeryDarkBlue);
     border-radius: 50%;
     
 }
 
 input[type=radio]:hover{
-    accent-color: var(--Orange);
+    background-color:  var(--MediumGrey);
 }
 
 input[type=radio]:checked{
-    accent-color: var(--Orange);
+    background-color: var(--Orange);
 }
