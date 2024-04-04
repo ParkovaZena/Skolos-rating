@@ -34,7 +34,7 @@ body{
 img{
     width: 20px;
     padding: 10px;
-    background-color: rgb(47, 54, 58);
+    background-color: var(--VeryDarkBlue);
     border-radius: 50%;
 }
 
@@ -72,8 +72,9 @@ label{
 
 button{
     border: none;
-    background-color: hsl(25, 97%, 53%);
-    color: white;
+    background-color: white;
+    color: var(--Orange);
+
     padding: 10px;
     border-radius: 20px;
     font-weight: 400;
@@ -81,24 +82,33 @@ button{
 
 
 button:hover{
-    background-color: white;
-    color: var(--Orange);
-
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 input[type=radio]{
     appearance: none;
     width: 50px;
     height: 50px;
-    background-color: rgb(47, 54, 58);
+    background-color: var(--VeryDarkBlue);
     border-radius: 50%;
     
 }
 
 input[type=radio]:hover{
-    background-color:  var(--MediumGrey);
+    background-color: var(--Orange);
 }
 
 input[type=radio]:checked{
-    background-color: var(--Orange);
+    background-color:  var(--MediumGrey);
+    
+}
+
+
+.hod{
+    display: none;
+}
+
+.uka{
+    display: flex;
 }
